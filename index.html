@@ -39,6 +39,7 @@
   </head>
   <body>
     <!-- Header -->
+    <!-- Navbar -->
     <header>
       <div class="navbar bg-sky-100 shadow-sm px-5">
         <div class="navbar-start">
@@ -61,29 +62,29 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-5 w-52 p-2 shadow "
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-5 w-52 p-2 shadow"
             >
               <li>
-              <a href=""
-                ><button class="">
-                  <i class="fa-solid fa-question"></i>FAQ
-                </button>
-              </a>
-            </li>
-            <li>
-              <a href=""
-                ><button class="">
-                  <i class="fa-solid fa-book-open"></i>Learn
-                </button>
-              </a>
-            </li>
-            <li>
-              <a href=""
-                ><button class="">
-                  <i class="fa-solid fa-right-from-bracket"></i>Logout
-                </button>
-              </a>
-            </li>
+                <a href=""
+                  ><button class="">
+                    <i class="fa-solid fa-question"></i>FAQ
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href=""
+                  ><button class="">
+                    <i class="fa-solid fa-book-open"></i>Learn
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href=""
+                  ><button class="">
+                    <i class="fa-solid fa-right-from-bracket"></i>Logout
+                  </button>
+                </a>
+              </li>
             </ul>
           </div>
           <a href="" class="flex items-center gap-1"
@@ -118,6 +119,41 @@
           </ul>
         </div>
       </div>
+
+      <!-- banner-section -->
+      <section
+        class="banner-container my-5 w-11/12 mx-auto flex flex-col-reverse md:flex-row text-center md:text-left justify-between items-center gap-14"
+      >
+        <div class="text-form">
+          <h1 class="text-4xl font-bold">
+            <span class="text-sky-400">English</span> is Easy !!
+          </h1>
+          <p class="font-bangla text-xl font-semibold mt-5">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন <br />
+            অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে
+            যাবে অন্য একটি Level এ
+          </p>
+          <div class="max-w-md mx-auto mt-24">
+    <form class="p-4">
+        <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full py-2 px-3 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:border-blue-500" placeholder="Enter your email address">
+        </div>
+        <div class="mb-4">
+            <label for="password" class="block text-gray-700 font-bold mb-2">Password</label>
+            <input type="password" id="password" name="password" class="w-full py-2 px-3 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:border-blue-500" placeholder="Enter your password">
+        </div>
+        <div class="flex items-center justify-between">
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800 transition duration-150 ease-in-out">Get Started</button>
+        </div>
+    </form>
+</div>
+        </div>
+
+        <div class="image">
+          <img src="assets/hero-student.png" alt="" />
+        </div>
+      </section>
     </header>
 
     <!-- Main -->
